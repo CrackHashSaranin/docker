@@ -7,6 +7,7 @@
 - **manager** — основной backend, координирующий работу (склонировать репозиторий можно по ссылке https://github.com/CrackHashSaranin/manager.git)
 - **worker** — один или несколько рабочих процессов, выполняющих подбор (склонировать репозиторий можно по ссылке https://github.com/CrackHashSaranin/worker.git)
 - **frontend** — отдельное веб-приложение, запускаемое вручную (склонировать репозиторий можно по ссылке https://github.com/CrackHashSaranin/front.git)
+- **docker** - папка, в которой содержатся необходимые файлы для запуска (склонировать репозиторий можно по ссылке https://github.com/CrackHashSaranin/docker.git)
 
 ## Требования
 
@@ -18,7 +19,7 @@
 
 ## Как запустить
 
-1. Убедиться, что директории `manager`, `worker`, файлы `docker-compose.yml` и `run_build.bat` находятся в **одной общей папке**.
+1. Убедиться, что директории `manager`, `worker`, файлы `docker-compose.yml` и `run_build.bat` (эти файлы находятся в репозитерии **docker**) находятся в **одной общей папке**.
 
 2. Запустить run_build.bat
 
